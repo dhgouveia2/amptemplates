@@ -46,12 +46,12 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Game Port",
+        "DisplayName": "Host Port",
         "Category": "ProjectCars:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "",
-        "FieldName": "$GamePort",
+        "FieldName": "$HostPort",
         "InputType": "number",
         "Hidden": true,
         "IsFlagArgument": false,
