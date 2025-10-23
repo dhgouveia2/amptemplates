@@ -25,11 +25,11 @@ App.WorkingDir=332670
 App.ExecutableLinux=332670/DedicatedServerCmd
 App.ExecutableWin=332670\DedicatedServerCmd.exe
 App.LinuxCommandLineArgs=
-App.WindowsCommandLineArgs=\>server.log
+App.WindowsCommandLineArgs=>server.log
 App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "234630"}}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "234630"}
 App.CommandLineParameterFormat=-{0}="{1}"
 App.CommandLineParameterDelimiter=
 App.ExitMethod=OS_CLOSE
