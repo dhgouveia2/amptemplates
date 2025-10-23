@@ -58,7 +58,6 @@ App.ExecutableLinux=332670/DedicatedServerCmd
 App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=>server.log
-App.TailLogFilePath={{$FullBaseDir}}server.log
 App.Ports=@IncludeJson[project-carsports.json]
 App.UpdateSources=@IncludeJson[project-carsupdates.json]
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "234630", "STEAM_COMPAT_DATA_PATH": "{{$FullRootDir}}332670", "STEAM_COMPAT_CLIENT_INSTALL_PATH": "{{$FullRootDir}}332670"}}
