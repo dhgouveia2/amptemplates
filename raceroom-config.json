@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Raceroom:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the name of the server as it will appear in the game listing",
+        "Keywords": "name,game,listing",
+        "FieldName": "name",
+        "InputType": "text",
+        "ParamFieldName": "$.name",
+        "DefaultValue": "AMP Powered Raceroom Server",
+        "EnumValues": {}
+    }   
+]

@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "ConfigFile": "raceroom_server.json",
+        "AutoMap": true,
+        "ConfigType": "json"
+    }
+]
