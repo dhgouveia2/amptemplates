@@ -1,0 +1,30 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": "60000",
+        "Name": "Host Port",
+        "Description": "Server Connection",
+        "Ref": "HostPort"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": "60001",
+        "Name": "GameTraffic Port",
+        "Description": "Main Game Traffic, Content Data",
+        "Ref": "GameTrafficPort"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "60002",
+        "Name": "Ping and time sync Port",
+        "Description": "Ping and Time synchronization",
+        "Ref": "PingTimeSyncPort"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": "8088",
+        "Name": "Web UI Port",
+        "Description": "Web Interface Port",
+        "Ref": "WebUIPort"
+    }
+]
